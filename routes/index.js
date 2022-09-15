@@ -600,7 +600,7 @@ function randomPage(req, res) {
   res.render('random', {title: title, paragraphs: paragraphs, links: links});
 }
 
-router.all('*', randomPage);
+//router.all('*', randomPage);
 
 // console.log(lorem.generateParagraphs(7));
 
@@ -614,5 +614,25 @@ router.all('*', randomPage);
 // router.all('*', (req, res) => res.render('random', {title: title, paragraphs: paragraphs} ) )
 
 // router.get('/', (req, res) => res.send(lorem.generateParagraphs(7)))
+
+const creadas = {
+  "total": 2,
+  "list": [
+    {
+      "imagen": "https://http.cat/100",
+      "titulo": "Todos por fulana",
+      "vendidos": 3,
+      "id": 1
+    },
+    {
+      "imagen": "https://http.cat/200",
+      "titulo": "Todos por mengana",
+      "vendidos": 10,
+      "id": 2
+    }
+  ]
+}
+
+router.get('/rifas/creadas', (req, res) => res.send(creadas));
 
 module.exports = router;
