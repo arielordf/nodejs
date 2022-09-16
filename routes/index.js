@@ -12,7 +12,7 @@ const creadas = {
     {
       "imagen": "https://images.unsplash.com/photo-1663167266768-b7384b93b28e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
       "titulo": "Todos por Cesar Juan Alberto",
-      "vendidos": 3,
+      "vendidos": 4,
       "id": 1
     },
     {
