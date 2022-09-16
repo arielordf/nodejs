@@ -17,7 +17,7 @@ const creadas = {
     },
     {
       "imagen": "https://images.unsplash.com/photo-1662855802712-7e30ebfbb194?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
-      "titulo": "Todos por Maria Joaquina",
+      "titulo": "Todos por Maria Antonieta",
       "vendidos": 10,
       "id": 2
     }
